@@ -2,11 +2,10 @@
 <html lang="zxx">
 
 <head>
-    <title>Ashish Rathore | Biodata </title>
+    <title>Ashish Rathore | Profile </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="keywords" content="Fusion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <meta name="keywords" content="Full Stack Developer, Digital Architect, Microservices, Web Developement" />
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -16,6 +15,7 @@
             window.scrollTo(0, 1);
         }
     </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Custom Theme files -->
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
@@ -26,85 +26,172 @@
     <!-- //Custom Theme files -->
     <!-- online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
-  
-    <link rel="stylesheet" href="css/templatemo-style.css">
+
     
-<style>
+		<!-- GRT Youtube Plugin CSS -->
+		<link rel="stylesheet" href="css/grt-youtube-popup.css">
+    <!-- GRT Youtube Popup -->
+    <script src="js/grt-youtube-popup.js"></script>
 
-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-body {
-	font-family: 'Dosis', sans-serif;
-	background: #17a2b8;
-}
-
-
-</style>
-<script>
-    const shareButton = document.querySelector('.share-button');
-const shareDialog = document.querySelector('.share-dialog');
-const closeButton = document.querySelector('.close-button');
-
-shareButton.addEventListener('click', event => {
-  if (navigator.share) { 
-   navigator.share({
-      title: 'WebShare API Demo',
-      url: 'https://codepen.io/ayoisaiah/pen/YbNazJ'
-    }).then(() => {
-      console.log('Thanks for sharing!');
-    })
-    .catch(console.error);
-    } else {
-        shareDialog.classList.add('is-open');
-    }
-});
-
-closeButton.addEventListener('click', event => {
-  shareDialog.classList.remove('is-open');
-});
-    </script>
+        
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-   
     <!-- header -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
         <div class="container">
             <h1 class="fusion-logo">
                 <a href="index.html" id="logoLink"><span>a</span>Rathore</a>
-            </h1>           
+            </h1>
+            <div class="nav-item  position-relative">
+                <a href="#menu" id="toggle">
+                    <span></span>
+                </a>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#news" class="scroll">News</a></li>
+                        <li><a href="#tl" class="scroll">Timeline</a></li>
+                        <li><a href="#portfolio" class="scroll">Portfolio</a></li>
+                        <li><a href="#testi" class="scroll">Testimonials</a></li>
+                        <li><a href="#contact" class="scroll">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- //header -->
     <!-- banner -->
-    
+    <div id="home" class="banner-fspvt  d-flex justify-content-center align-items-center clip-fusion">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-6"></div>
+                <img src="images/myphoto2.png"/>
+                <div class="col-lg-6 bnr-txt-fspvt  d-sm-flex justify-content-center align-items-center">
+                    <div class="bnr-fspvt-txt">
+                        <h4>Hi,I'm</h4>
+                        <h2>Ashish Rathore</h2>
+                        <img  src="img/aws4.png"></img>
+                        <h3> Digital Solution Architect</h3>
+                        <p class="text-white mt-sm-4 mt-2">
+						An Enterprise and IT Architect with over 16 years of leadership experience in designing innovative digital business solutions for tier 1 and tier 2 customers.
+						Skilled in cloud computing, digital architecture, hybrid mobile applications, server and client applications.
+						</p>
+                        <a href="#about" class="scroll bnr-btn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //banner -->
+    <!-- about -->
+    <section class="about-fslayouts sec-space" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title-sec-fslayouts_pvt">
+                        <span class="title-icon-fusion fa fa-hashtag" aria-hidden="true"></span>
+                        <h4 class="fslayouts_pvt-head">about me</h4>
+                        <p class="title-text text-capitalize">Full Stack Digital Solution Architect</p>
+                    </div>
+                    <div class="ab-pvtfs my-4">
+                        <p class="my-3">
+                            Requirement feasibility and solution discussions with Business experts, Marketing colleagues, External vendors, IT Architect, and Design Studio leads. 
+                            Implementing and demoing early product behavior through POC to help the customer visualize the end experience.
+                        </p>
+                        <p> 
+                            Define, develop, and implement robust and flexible solutions to suit customer needs
+						</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  mt-md-4 fspvt-ab text-center position-relative">
+                    <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
+                    <div class="clip-each clip-border d-flex justify-content-center align-items-center">
+                        <img src="images/s5.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <h4 class="feed-title my-3">Positive Solutions</h4>
+                    <p> Delivery of features in sprints. (every 2 weeks) to gratify business time to market challenge and at the sample reducing the overall cost to customers</p>
+                    <a href="#tl" class="btn-fslayouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 fspvt-ab text-center">
+                    <div class="clip-each clip-border d-flex justify-content-center align-items-center">
+                        <img src="images/s6.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <h4 class="feed-title my-3">Satisfied Customers</h4>
+                    <p> Bringing down complex requirements turning into high-cost CRs. Working with customers to slice complex requirements into smaller yet business-critical deliverables. ones. At the same time, NO compromise on the overall feature quality</p>
 
-      
-
+                    <a href="#tl" class="btn-fslayouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a>
+                </div>
+            </div>
+            <div class="row ab-grid-bottom">
+                <div class="col-lg-3 col-md-6 my-lg-4 fspvt-ab text-center  position-relative">
+                    <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
+                    <div class="clip-each clip-border d-flex justify-content-center align-items-center">
+                        <img src="images/s1.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <h4 class="feed-title my-3">Business consulting</h4>
+                    <p> Helping and Guiding Marketing and Business colleagues about overall ROI for any requirements that demand for 
+                        considerable efforts for a short-term benefit.
+                    </p>                        
+                       
+                    <a href="#tl" class="btn-fslayouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a>
+                </div>
+                <div class="col-lg-3 col-md-6 my-lg-4 mt-md-0 mt-4 fspvt-ab text-center position-relative">
+                    <div class="ab-border rsp-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
+                    <div class="clip-each clip-border d-flex justify-content-center align-items-center">
+                        <img src="images/s2.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <h4 class="feed-title my-3">Architecture Validation</h4>
+                    <p> Ensuring functional and technical architecture integrity at local and global level.</p>
+                    <a href="#tl" class="btn-fslayouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a>
+                </div>
+                <div class="col-lg-3 col-md-6 my-lg-4 mt-sm-5 mt-4 fspvt-ab text-center position-relative">
+                    <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
+                    <div class="clip-each clip-border d-flex justify-content-center align-items-center">
+                        <img src="images/s3.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <h4 class="feed-title my-3">Solution Design</h4>
+                    <p> Solution and Implementation to ensure the robustness of the core product features/design and customization capabilities.</p>
+                    <a href="#tl" class="btn-fslayouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4 fspvt-ab text-center">
+                    <div class="clip-each clip-border d-flex justify-content-center align-items-center">
+                        <img src="images/s4.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <h4 class="feed-title my-3">Implementation & Go Live</h4>
+                    <p> Implementation with high quality deliverables in an agile way. Also 24*7 support on WCMS Authoring and development part</p>
+                    <a href="#tl" class="btn-fslayouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
     <!-- carousel -->
-    <div class="cliptop-blog-fusion-cust" id="news">
+    <div class="cliptop-blog-fusion" id="news">
         <div class="container">
 
-          <div class="row blog pt-5 mt-md-3">
-             
-              <video autoplay loop muted playsinline>
-                <source src="video/TimeLoop_4K.mp4">
-                <source src="image.webm" onerror="fallback(parentNode)">
-                <img src="image.gif">
-              </video>
+            <div class="title-sec-fslayouts_pvt">
+                <span class="title-icon-fusion fa fa-hashtag" aria-hidden="true"></span>
+                <h4 class="fslayouts_pvt-head text-white">Certifications and Developments</h4>
+                            
+            </div>
+            <div class="title-sec-fslayouts_pvt">
+                <img  src="img/aws3.png"></img>
+            </div>
+            <div class="row blog pt5 mt-md-3">
                 <div class="col-md-12">
                     <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
                         <ol class="carousel-indicators">
                             <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>                            
                         </ol>
 
                         <!-- Carousel items -->
@@ -112,55 +199,56 @@ closeButton.addEventListener('click', event => {
                             <div class="carousel-item active">
                                 <div class="d-flex team-agile-row">
                                     <div class="col-lg-4 col-md-6 fs-slide-grid">
-                                        <h5><a href="profile.html">Portfolio Information</a></h5>
+                                        <h5><a href="#">Learn React in Minutes </a></h5>
                                         <div class="box20">
-                                            <img src="images/g5.jpg" alt="" class="img-fluid" />
+                                            <img src="images/blog1.png" alt="" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title"><a href="profile.html">My Porfolio</a></h3>
-                                                <span class="post text-capitalize"><a href="profile.html">know me more..</a></span>
+                                                <h3 class="title">Learn React in Minutes</h3>
+                                                <span class="post text-capitalize">30 April 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
-                                                    <a href="profile.html">
-                                                        <span class="fa fa-share"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="profile.html">
-                                                        <span class="fa fa-link"></span>
-                                                    </a>
+                                                    <span class="youtube-link-dark" youtubeid="qgVMgaG5h1Q"><a href="#">play</a>
+                                                    </span>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-4  fs-slide-grid">
-                                        <h5><a href="https://techtweet.org">Blog/Vlog</a></h5>
+                                        <h5><a href="#">React State vs Props - no confusion </a></h5>
                                         <div class="box20">
-                                            <img src="images/g2.jpg" alt="" class="img-fluid" />
+                                            <img src="images/blog2.png" alt="" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title"><a href="https://techtweet.org">Blog/Vlog</a></h3>
-                                                <span class="post text-capitalize"><a href="https://techtweet.org">unlock the information...</a></span>
+                                                <h3 class="title">React State vs Props </h3>
+                                                <span class="post text-capitalize">10 May 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-share"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-link"></span>
-                                                    </a>
+                                                    <span class="youtube-link-dark" youtubeid="zkkOfByba_o"><a href="#">play</a>
+                                                    </span>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                    
-                                <!--.row-->
+                                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 fs-slide-grid">
+                                        <h5><a href="#">Fix Printer Problem</a></h5>
+                                        <div class="box20">
+                                            <img src="images/blog3.png" alt="" class="img-fluid" />
+                                            <div class="box-content">
+                                                <h3 class="title">How to fix printer issue</h3>
+                                                <span class="post text-capitalize">10 May 2021</span>
+                                            </div>
+                                            <ul class="icon">
+                                                <li>
+                                                    <span class="youtube-link-dark" youtubeid="I9XrwO5iGr8"><a href="#">play</a>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                            
                             </div>
-                            
                             <!--.item-->
-
                         </div>
                         <!--.carousel-inner-->
                     </div>
@@ -171,11 +259,461 @@ closeButton.addEventListener('click', event => {
         </div>
     </div>
     <!-- //carousel -->
+    <!-- timeline -->
+    <section class="timeline-fspvt" id="tl">
+        <div class="container">
+            <div class="row">
+                <div id="timeline">
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                            <p>2021</p>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        </div>
+                        <div class="offset-lg-6 col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-lg-1 col-lg-12">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="images/tech-2021.png" class="img-fluid"
+                                                                alt="user-image" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo"><img src="images/amd.png" width="25" height="25"/>mdocs Customer Service Unit Italy</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Digital Solution Architect</span> </li>
+                                                    <li><span class="causale">VFIT Digital Transformation. </span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                01/02/2017, 09:40"</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                            <p>2015</p>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+                        </div>
+                        <div class="col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                                        <div class="timeline-panel-ul  clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="images/tech-2011.png" class="img-fluid"
+                                                                alt="user-image" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo"><img src="images/amd.png" width="25" height="25"/>mdocs Development India</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Software Architect
+                                                        </span> </li>
+                                                    <li><span class="causale">Product Architecture </span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                14/06/2010, 10:15"</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                            <p>2008</p>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        </div>
+                        <div class="offset-lg-6 col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-lg-1 col-lg-11">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="images/tech-2007.png" class="img-fluid"
+                                                                alt="user-image" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo"><img src="images/amd.png" width="25" height="25"/>mdocs Development India</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Sr. Subject Matter Expert</span> </li>
+                                                    <li><span class="causale">Product R&D App</span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                05/07/2007, 11:25"</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+
+                        </div>
+                        <div class="col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="images/tech-2005.png" class="img-fluid"
+                                                                alt="user-image" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo"><img src="images/amd.png" width="25" height="25"/>mdocs Development India</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Subject Matter Expert
+                                                        </span> </li>
+                                                    <li><span class="causale">Product Support</span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                07/11/2005, 09:00"</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        </div>
+                        <div class="offset-lg-6 col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-lg-1 col-lg-11">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="images/tech-2004.png" class="img-fluid"
+                                                                alt="user-image" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo">HOV Services Pvt Ltd India</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Software Developer</span> </li>
+                                                    <li><span class="causale">Distributed Applications</span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                07/08/2004, 08:00"</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                            <p>2004</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //timeline -->
+    <!-- portfolio -->
+    <section class="fusion-row fs-gallery cliptop-portfolio-fusion" id="portfolio">
+        <div class="container">
+            <div class="title-sec-fslayouts_pvt">
+                <span class="title-icon-fusion fa fa-hashtag" aria-hidden="true"></span>
+                <h4 class="fslayouts_pvt-head text-white">Trending Now</h4>
+                <p class="title-text text-capitalize">technologies impact</p>
+            </div>
+            <ul class="demo mt-5 pt-lg-5">
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="img/Kubernetes.jpg" alt=" " class="img-fluid" />
+                        <div class="p-mask">
+                            <span class="youtube-link-dark" youtubeid="X48VuDVv0do">
+                                <h4>Kubernates</h4>
+                                <p>How to manage several containers ?</p>
+                            </span>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="img/pwa.png" alt=" " class="img-fluid" />
+                        <div class="p-mask">
+                            <span class="youtube-link-dark" youtubeid="sFsRylCQblw">
+                            <h4>PWA</h4>
+                            <p >What is Progressive Web App?</p>
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="img/IPA.jpg" alt=" " class="img-fluid" />
+                        <div class="p-mask">
+                            <span class="youtube-link-dark" youtubeid="UgbiWFomYqE">
+                            <h4>Intelligent Process Automation</h4>
+                            <p >Intelligent Process Automation</p>
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="img/IOB.jpg" alt=" " class="img-fluid" />
+                        <div class="p-mask">
+                            <span class="youtube-link-dark" youtubeid="EKAZAzry7Q8">
+                            <h4>IoB</h4>
+                            <p >Internet of Behaviors (IoB)</p>
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="img/blockchain.png" alt="#" class="img-fluid" />
+                        <div class="p-mask">
+                            <span class="youtube-link-dark" youtubeid="V_SW9LjPUC0">
+                            <h4>BlockChain</h4>
+                            <p >What Blockchain is ?</p>
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="img/AI.png" alt=" " class="img-fluid" />
+                        <div class="p-mask">
+                           <span class="youtube-link-dark" youtubeid="s0dMTAQM4cw">
+                            <h4>AI</h4>
+                            <p >Artificial Intelligence(AI) </p>
+                        </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <!-- //gallery container -->
+    </section>
+    <!-- //portfolio -->
+    <!-- testimonials -->
+            
+    <div class="testimonials" id="testi">
     
+        <div class="container">
+            <div class="callbacks_container">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="row testi-fspvt">
+                            <div class="col-lg-6">
+                                <div class="testi-left-grid">
+                                    <div class="testi-agile">
+                                        <p>
+                                            Hardworking, Intelligent and a jolly person.
+
+                                        </p>
+                                    </div>
+                                    <div class="testi-pos">
+                                        <img src="images/ts1.jpg" alt="" class="img-fluid rounded-circle mb-3" />
+                                        <h4>Sudhir Yelikar</h4>
+                                        <span>Technical Expert</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="testi-agile">
+                                    <p>
+                                        Passtionate about technology and skilled.
+                                    </p>
+                                </div>
+                                <div class="testi-pos">
+                                    <img src="images/ts2.jpg" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Savio Dsouza</h4>
+                                    <span>Lead Architect</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row testi-fspvt">
+                            <div class="col-lg-6">
+                                <div class="testi-agile">
+                                    <p>
+                                        
+                                        Always welcomes challenges..! Stays calm.
+                                    </p>
+                                </div>
+                                <div class="testi-pos">
+                                    <img src="images/ts3.jpg" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Sandeep</h4>
+                                    <span>Sr. Technical Expert</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //testimonials -->
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="map-grid clipbottom-fusion">
+            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJlduiODLChkcRUH5mLgJ4BgM&key=AIzaSyDcJBMd8rCfG4arutsb26f7BoV-yJmCvJg"></iframe>
+            <div class="fslayouts-contact-pos  clipbottom-fusion">
+                <div class="fslayouts-contact-pos-grid">
+                    <div class="title-sec-fslayouts_pvt">
+                        <span class="title-icon-fusion fa fa-hashtag" aria-hidden="true"></span>
+                        <h4 class="fslayouts_pvt-head text-white">Contact me</h4>
+                        <p class="title-text text-capitalize"></p>
+                    </div>
+                    <form action="#" method="get" class="contact-fusion">
+                        <div class="form-group d-flex">
+                            <label>
+                                <span class="fa fa-user text-white" aria-hidden="true"></span>
+                            </label>
+                            <input class="form-control" type="text" placeholder="Enter your name..." name="email"
+                                required="">
+                        </div>
+                        <div class="form-group d-flex">
+                            <label>
+                                <span class="fa fa-envelope text-white" aria-hidden="true"></span>
+                            </label>
+                            <input class="form-control" type="email" placeholder="Enter your email..." name="email"
+                                required="">
+                        </div>
+                        <div class="form-group d-flex">
+                            <label>
+                                <span class="fa fa-edit text-white"></span>
+                            </label>
+                            <input class="form-control" type="text" placeholder="Subject" name="email" required="">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="contact-comment" placeholder="Your message"
+                                required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="submit" class="btn btn-block text-uppercase">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contact-details">
+        <div class="container-fluid px-0">
+            <div class="row m-0 contact-row-fspvt py-5">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-center align-items-center p-0">
+                            <span class="field-icon fa fa-phone" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-10 cd-grid">
+                            <ul>
+                                <li>+39-XXX-XXX-XXXX</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-lg-0 my-4">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-center align-items-center p-0">
+                            <span class="field-icon fa fa-map-marker" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-10 cd-grid">
+                            <p>Milan, Italy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-center align-items-center p-0">
+                            <span class="field-icon fa fa-envelope-o fa-lg" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-10 cd-grid">
+                            <ul>
+                                <li>
+                                    <a href="mailto:info@ashishrathore.com">info@ashishrathore.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //contact -->
+    <!-- social -->
+    <section class="social_fsls_pvt position-relative py-5">
+        <div class="container py-lg-5">
+            <ul class="py-4">
+                <li><a href="#"><span class="fa fa-facebook"
+                            aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-google-plus" aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-linkedin"
+                            aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- //social -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="cpy-right text-center">
+                <p class="text-white">© 2021 Fusion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
-
+    <!--  menu toggle -->
+    <script src="js/menu.js"></script>
+    <!-- testimonials  Responsiveslides -->
+    <script src="js/responsiveslides.min.js"></script>
     <script>
         // You can also use"$(window).load(function() {"
         $(function () {
@@ -196,7 +734,6 @@ closeButton.addEventListener('click', event => {
         });
     </script>
     <!-- //testimonials  Responsiveslides -->
-
     <!-- gallery -->
     <script src="js/jquery.picEyes.js"></script>
     <script>
@@ -226,14 +763,6 @@ closeButton.addEventListener('click', event => {
     <!-- smooth-scrolling-of-move-up -->
     <script>
         $(document).ready(function () {
-            /*
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear' 
-            };
-            */
 
             $().UItoTop({
                 easingType: 'easeOutQuart'
@@ -241,9 +770,23 @@ closeButton.addEventListener('click', event => {
 
         });
     </script>
-        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
-    	<script type="text/javascript" src="js/particles.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
+	<!-- GRT Youtube Popup -->
+    <script src="js/grt-youtube-popup.js"></script>
+
+<!-- Initialize GRT Youtube Popup plugin -->
+<script>
+    // Demo video 1
+    $(".youtube-link").grtyoutube({
+        autoPlay:true,
+        theme: "dark"
+    });
+
+    // Demo video 2
+    $(".youtube-link-dark").grtyoutube({
+        autoPlay:false,
+        theme: "dark"
+    });
+</script>
     <script src="js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
@@ -251,6 +794,5 @@ closeButton.addEventListener('click', event => {
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.min.js"></script>
 </body>
-
 
 </html>
